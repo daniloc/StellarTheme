@@ -13,7 +13,7 @@ public extension Theme {
     static var stellar: Self {
         Theme(
             htmlFactory: StellarHTMLFactory(),
-            resourcePaths: ["Resources/"]
+            resourcePaths: ["Resources/css/main.css", "Resources/css/images/overlay.png", "Resources/css/fontawesome-all.min.css"]
         )
     }
 }
